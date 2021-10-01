@@ -65,23 +65,3 @@ class CitiesViewModelImpl: CitiesViewModel {
     }
 }
 
-
-// На потом
-//extension Array {
-//    func item(at index: Int) -> Element? {
-//        return indices.contains(index) ? self[index] : nil
-//    }
-//    public subscript(safeIndex index: Int) -> Element? {
-//        guard index >= 0, index < endIndex else {
-//            return nil
-//        }
-//
-//        return self[index]
-//    }
-//}
-//
-//extension Collection where Indices.Iterator.Element == Index {
-//   public subscript(safe index: Index) -> Iterator.Element? {
-//     return (startIndex <= index && index < endIndex) ? self[index] : nil
-//   }
-//}
